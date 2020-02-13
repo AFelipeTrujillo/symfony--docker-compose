@@ -19,6 +19,7 @@ RUN apk add --update --no-cache \
     php7-openssl \
     php7-pdo \
     php7-pdo_mysql \
+    php7-pdo_sqlite \
     php7-mysqli \
     php7-xml \
     php7-zlib \
@@ -29,6 +30,7 @@ RUN apk add --update --no-cache \
     php7-xdebug \
     php7-zip \
     php7-xmlwriter \
+    php7-sqlite3 \
     make \
     curl
 
